@@ -1,3 +1,75 @@
-body {
-	background-color: blue;
+.theme_color_project-default {
+	--color-base-default: var(--color-base-default);
+	--color-base-accent: var(--color-base-accent);
+	--color-base-border: var(--color-base-border);
+
+	--color-text-base: var(--color-text-base);
+	--color-text-secondary: var(--color-text-secondary);
+	--color-text-extra: var(--color-text-extra);
+	--color-text-link: var(--color-base-default);
+}
+
+.theme_color_project-brand {
+	--color-base-default: #0077ff;
+	--color-base-accent: #ffffff;
+	--color-base-border: #ffffff;
+
+	--color-text-base: #ffffff;
+	--color-text-secondary: rgba(255, 255, 255, 0.6);
+	--color-text-extra: rgba(255, 255, 255, 0.3);
+	--color-text-link: #ffffff;
+}
+
+.theme_color_project-inverse {
+	--color-base-default: #000000;
+	--color-base-accent: #ffffff;
+	--color-base-border: #ffffff;
+
+	--color-text-base: #ffffff;
+	--color-text-secondary: rgba(255, 255, 255, 0.6);
+	--color-text-extra: rgba(255, 255, 255, 0.3);
+	--color-text-link: #0077ff;
+}
+
+.theme_color_project-warning {
+	--color-base-default: #ff3333;
+	--color-base-accent: #ffffff;
+	--color-base-border: #ff3333;
+
+	--color-text-base: #ffffff;
+	--color-text-secondary: rgba(255, 255, 255, 0.6);
+	--color-text-extra: rgba(255, 255, 255, 0.3);
+	--color-text-link: #ffffff;
+}
+
+.theme_size_default {
+	--text-height-s: 8px;
+	--text-height-m: 8px;
+	--text-height-l: 8px;
+	--text-height-xl: 8px;
+	--text-height-xxl: 8px;
+
+	--text-lineheight-s: 21px;
+	--text-lineheight-m: 25px;
+	--text-lineheight-l: 28px;
+	--text-lineheight-xl: 34px;
+	--text-lineheight-xxl: 38px;
+}
+
+.theme_space_default {
+	--space-xxxs: 3px;
+	--space-xxs: 6px;
+	--space-xs: 9px;
+	--space-s: 15px;
+	--space-m: 18px;
+	--space-l: 24px;
+	--space-xl: 27px;
+	--space-xxl: 36px;
+	--space-xxxl: 45px;
+	--space-xxxxl: 51px;
+	--space-xxxxxl: 72px;
+}
+
+.theme_gap_small {
+	--gap: var(--space-xl);
 }
