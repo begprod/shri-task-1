@@ -3,6 +3,7 @@ const postcss = require('gulp-postcss');
 const postcssImport = require('postcss-import');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
+const simpleVars = require('postcss-simple-vars');
 
 const path = {
 	build: './build',
@@ -14,6 +15,7 @@ const path = {
 gulp.task('css', () => {
 	const processors = [
 		postcssImport,
+		simpleVars,
 		autoprefixer,
 		cssnano
 	];
