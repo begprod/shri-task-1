@@ -1,0 +1,26 @@
+{
+	"name": "shri-20-task-1",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "Andrey Aratov [web.andrew@yandex.ru]",
+	"license": "ISC",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"devDependencies": {
+		"autoprefixer": "^9.7.3",
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"gulp-postcss": "^8.0.0",
+		"postcss-import": "^12.0.1"
+	}
+}
