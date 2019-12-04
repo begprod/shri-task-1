@@ -1,25 +1,26 @@
 .card {
-
+	position: relative;
 }
 
 .card_view_default {
-
+	background-color: var(--color-base-default);
 }
 
 .card_border_all {
-
+	border: 1px solid var(--color-base-border);
 }
 
 .card__content {
-
+	position: relative;
+	display: flex;
 }
 
 .card__content_distribute_center {
-
+	justify-content: center
 }
 
 .card__content_vertical-align_center {
-
+	align-items: center;
 }
 
 .card__content_space-a_m {
@@ -39,15 +40,35 @@
 }
 
 .card__footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	width: 100%;
+}
 
+.card__footer_distribute_between {
+	justify-content: space-between;
 }
 
 .card__footer_distribute_center {
+	justify-content: center;
+}
 
+.card__footer_distribute_right {
+	justify-content: flex-end;
 }
 
 .card__footer_vertical-align_center {
+	align-items: center;
+}
 
+.card__footer_vertical-align_top {
+	align-items: flex-start;
+}
+
+.card__footer_vertical-align_bottom {
+	align-items: flex-end;
 }
 
 .card__footer_space-a_m {
