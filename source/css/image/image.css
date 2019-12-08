@@ -1,0 +1,14 @@
+.image {
+	width: 100%;
+	border: 3px solid;
+	border-color: var(--color-base-border);
+	background-image: url("../assets/images/image-placeholder-primary.svg");
+}
+
+.project-inverse .image {
+	background-image: url("../assets/images/image-placeholder-inverse.svg");
+}
+
+.project-brand .image {
+	background-image: url("../assets/images/image-placeholder-inverse.svg");
+}
