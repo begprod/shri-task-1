@@ -3,7 +3,8 @@
 }
 
 .list_border_all {
-	border: 1px solid var(--color-base-border);
+	border: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .list_view_default {
@@ -15,7 +16,8 @@
 }
 
 .list__item_border_top {
-	border-top: 1px solid var(--color-base-border);
+	border-top: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .list__item_border_bottom {

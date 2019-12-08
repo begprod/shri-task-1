@@ -3,7 +3,8 @@
 }
 
 .form_border_all {
-	border: 3px solid var(--color-base-border);
+	border: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .form_view_default {
@@ -15,7 +16,8 @@
 }
 
 .form__item_border_bottom {
-	border: 1px solid var(--color-base-border);
+	border: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .form__item_border_bottom:last-child {

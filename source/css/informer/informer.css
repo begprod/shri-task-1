@@ -3,7 +3,8 @@
 }
 
 .informer_border_all {
-	border: 3px solid var(--color-base-border);
+	border: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .informer_view_default {

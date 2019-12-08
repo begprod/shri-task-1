@@ -44,10 +44,10 @@
 
 .theme_size_default {
 	--text-height-s: 8px;
-	--text-height-m: 8px;
-	--text-height-l: 8px;
-	--text-height-xl: 8px;
-	--text-height-xxl: 8px;
+	--text-height-m: 10px;
+	--text-height-l: 11px;
+	--text-height-xl: 13px;
+	--text-height-xxl: 16px;
 
 	--text-lineheight-s: 21px;
 	--text-lineheight-m: 25px;
