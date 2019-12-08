@@ -1,5 +1,4 @@
-@import "global/varables.css";
-@import "global/base.css";
+@import "base/base.css";
 @import "theme/theme.css";
 @import "grid/grid.css";
 @import "layout/layout.css";
