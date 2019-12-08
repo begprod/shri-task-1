@@ -25,11 +25,3 @@
 .layout__container_space-v_xxxxxl {
 	padding: var(--space-xxxxxl);
 }
-
-.section_indent-b_xxl {
-	margin-bottom: var(--space-xxl);
-}
-
-.section_indent-b_xxxxl {
-	margin-bottom: var(--space-xxxxl);
-}
