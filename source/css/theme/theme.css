@@ -72,4 +72,6 @@
 
 .theme_gap_small {
 	--gap: var(--space-xl);
+	--gap-half: calc(var(--gap) / 2);
+	--gap-two-thirds: calc(var(--gap) / 3);
 }
