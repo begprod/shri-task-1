@@ -1,0 +1,19 @@
+.payment {
+
+}
+
+.payment__header {
+
+}
+
+.payment__content {
+
+}
+
+.payment__footer {
+
+}
+
+.payment__footer .form__control {
+	justify-content: flex-end;
+}

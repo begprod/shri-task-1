@@ -12,11 +12,16 @@
 }
 
 .form__item {
-	
+	display: flex;
+	width: 100%;
+}
+
+.form__item:last-child {
+	margin-bottom: 0;
 }
 
 .form__item_border_bottom {
-	border: 3px solid;
+	border-bottom: 3px solid;
 	border-color: var(--color-base-border);
 }
 
@@ -158,6 +163,11 @@
 	padding-bottom: var(--space-xxxxl);
 }
 
+.form__content {
+	display: flex;
+	flex-direction: column;
+}
+
 .form__label {
 
 }
@@ -167,5 +177,6 @@
 }
 
 .form__control {
-
+	display: flex;
+	flex-grow: 1;
 }
