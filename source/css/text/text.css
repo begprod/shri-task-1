@@ -1,10 +1,10 @@
 .text {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 }
 
 .text_align_center {
-	align-items: center;
+	justify-content: center;
 }
 
 .text_size_s .text__word {

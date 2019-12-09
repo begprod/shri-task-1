@@ -32,7 +32,7 @@
 }
 
 .informer__action {
-
+	display: flex;
 }
 
 .informer__action_distribute_between {
@@ -40,7 +40,7 @@
 }
 
 .informer__action_distribute_center {
-	align-items: center;
+	justify-content: center;
 }
 
 .informer__action_space-a_xl {
