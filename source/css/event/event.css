@@ -1,0 +1,24 @@
+.event {
+	min-height: 400px;
+}
+
+.event__content {
+
+}
+
+.event__preview {
+	display: flex;
+	margin-bottom: var(--space-xxl);
+}
+
+.event__speaker {
+	margin-right: var(--space-xs);
+}
+
+.event__title {
+	margin-bottom: var(--space-s);
+}
+
+.event__description {
+
+}

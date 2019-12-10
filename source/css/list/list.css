@@ -25,6 +25,10 @@
 	border-color: var(--color-base-border);
 }
 
+.list__item_border_bottom:last-child {
+	border-bottom: none;
+}
+
 .list__item_distribute_between {
 	justify-content: space-between;
 }
