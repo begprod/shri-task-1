@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: center;
+	padding-top: var(--space-xxxl);
+	padding-bottom: var(--space-xxxl);
+}
+
+.header__content {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1280px;
+	width: 100%;
+}
+
+.header__logo {
+	width: 179px;
+	height: 34px;
+	background-color: var(--color-text-base);
+}
+
+.onoffswitch {
+	width: 97px;
+	height: 32px;
+	border: 2px solid;
+	border-color: var(--color-base-border);
+}
+
+.onoffswitch__button {
+
+}
