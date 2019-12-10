@@ -1,0 +1,16 @@
+.product {
+	min-height: 300px;
+}
+
+.product__content {
+
+}
+
+.product__image {
+	height: 160px;
+	background-color: var(--color-base-default);
+}
+
+.product__footer {
+
+}
