@@ -21,7 +21,8 @@
 }
 
 .list__item_border_bottom {
-	border-bottom: 1px solid var(--color-base-border);
+	border-bottom: 3px solid;
+	border-color: var(--color-base-border);
 }
 
 .list__item_distribute_between {

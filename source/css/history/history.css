@@ -1,0 +1,36 @@
+.history {
+
+}
+
+.history__transaction {
+	display: flex;
+	flex-direction: column;
+}
+
+.history__info {
+	width: 100%;
+}
+
+.history__description {
+	display: flex;
+	flex-direction: column;
+}
+
+.history__details {
+	display: flex;
+	align-items: center;
+}
+
+.history__actions {
+
+}
+
+.history__show {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.history__hide {
+	display: none;
+}
