@@ -1,10 +1,32 @@
 .text {
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .text_align_center {
-	justify-content: center;
+	text-align: center;
+}
+
+.text_size_s {
+	line-height: var(--text-lineheight-s);
+}
+
+.text_size_m {
+	line-height: var(--text-lineheight-m);
+}
+
+.text_size_l {
+	line-height: var(--text-lineheight-l);
+}
+
+.text_size_xl {
+	line-height: var(--text-lineheight-xl);
+}
+
+.text_size_xxl {
+	line-height: var(--text-lineheight-xxl);
+}
+
+.text__word {
+	display: inline-block;
 }
 
 .text_size_s .text__word {

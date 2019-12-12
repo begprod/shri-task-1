@@ -12,5 +12,5 @@
 }
 
 .product__footer {
-
+	flex-direction: column;
 }

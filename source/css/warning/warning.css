@@ -1,5 +1,6 @@
 .warning {
 	min-height: 335px;
+	height: 100%;
 }
 
 .warning__content {
