@@ -11,6 +11,10 @@
 	margin-bottom: var(--space-l);
 }
 
+.cover__preview .image {
+	background-image: url("./images/image-placeholder-inverse.svg");
+}
+
 .cover__footer {
 
 }
