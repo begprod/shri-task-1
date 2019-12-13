@@ -1,0 +1,16 @@
+.cover {
+	min-height: 472px;
+}
+
+.cover__info {
+
+}
+
+.cover__preview {
+	height: 180px;
+	margin-bottom: var(--space-l);
+}
+
+.cover__footer {
+
+}
