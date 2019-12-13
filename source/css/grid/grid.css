@@ -46,3 +46,17 @@
 .grid__fraction_m-col_8 {
 	grid-column: span 8;
 }
+
+@media screen and (max-width: $screen-m) {
+	.grid_m-columns_10 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.grid_m-columns_12 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	[class*="fraction_m-col"] {
+		grid-column: 1;
+	}
+}
