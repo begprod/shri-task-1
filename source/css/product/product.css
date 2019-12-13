@@ -2,6 +2,10 @@
 	min-height: 300px;
 }
 
+.product__title {
+	margin-bottom: var(--space-xxxl);
+}
+
 .product__content {
 
 }

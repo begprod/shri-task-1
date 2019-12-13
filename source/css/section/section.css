@@ -1,5 +1,5 @@
 .section {
-
+	background-color: var(--color-base-default);
 }
 
 .section_indent-b_xxl {
