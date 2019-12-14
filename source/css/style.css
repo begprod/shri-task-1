@@ -19,11 +19,13 @@
 @import "input/input.css";
 @import "image/image.css";
 
+@import "header/header.css";
+@import "footer/footer.css";
+
+@import "onoffswitch/onoffswitch.css";
 @import "payment/payment.css";
 @import "warning/warning.css";
 @import "product/product.css";
 @import "history/history.css";
 @import "cover/cover.css";
 @import "event/event.css";
-@import "header/header.css";
-@import "footer/footer.css";
