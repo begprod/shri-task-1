@@ -3,7 +3,6 @@
 	justify-content: center;
 	padding-top: var(--space-xxxl);
 	padding-bottom: var(--space-xxxl);
-	background-color: var(--color-base-default);
 }
 
 .header__content {
