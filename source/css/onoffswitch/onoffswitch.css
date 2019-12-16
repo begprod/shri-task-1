@@ -4,7 +4,7 @@
 	width: 97px;
 	height: 32px;
 	border: 2px solid;
-	padding: 1px;
+	padding: 2px;
 	border-color: var(--color-base-border);
 }
 
@@ -13,7 +13,7 @@
 }
 
 .onoffswitch__button {
-	width: 25px;
+	width: 24px;
 	height: 100%;
 	background-color: var(--color-text-base);
 }

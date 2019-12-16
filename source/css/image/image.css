@@ -10,12 +10,10 @@
 
 .theme_color_project-default > .image {
 	background-image: url("./images/image-placeholder-primary.svg");
+	border: none;
 }
 
 .theme_color_project-inverse > .image {
 	background-image: url("./images/image-placeholder-inverse.svg");
-}
-
-.theme_color_project-inverse > .image {
-	background-image: url("./images/image-placeholder-inverse.svg");
+	border: none;
 }
