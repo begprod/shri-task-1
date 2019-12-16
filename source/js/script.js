@@ -8,7 +8,7 @@ const selectors = {
 const pageWrapper = document.querySelector(selectors.page);
 const themeSwitcherWrapper = document.querySelector(selectors.themeSwitcherWrapper);
 
-document.addEventListener('click', (event) => {
+document.body.addEventListener('click', (event) => {
 	if (event.target.matches(selectors.themeSwitcherButton)) {
 		themeSwitcherWrapper.classList.toggle('onoffswitch_checked');
 		pageWrapper.classList.toggle('theme_color_project-default');
