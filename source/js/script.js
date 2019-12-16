@@ -1,26 +1,29 @@
 window.onload = () => {
-	const selectors = {
-		themeSwitcherWrapper: '.onoffswitch',
-		themeSwitcherButton: '.onoffswitch__button',
-		historyItem: '.history__transaction',
-		accordionItem: '.e-accordion__more',
-		page: '.page'
-	};
-	const pageWrapper = document.querySelector(selectors.page);
-	const themeSwitcherWrapper = document.querySelector(selectors.themeSwitcherWrapper);
+	const themeSwitcherWrapper = document.querySelector('.onoffswitch');
+	const themeDefaultBlocks = document.querySelectorAll('.theme_color_project-default');
+	console.log(themeDefaultBlocks);
 
 	document.body.addEventListener('click', (event) => {
-		console.log(document.body);
-		if (event.target.matches(selectors.themeSwitcherButton)) {
+		if (event.target.matches('.onoffswitch__button')) {
+			if (themeSwitcherWrapper.classList.contains('onoffswitch_checked')) {
+				themeDefaultBlocks.forEach((item) => {
+					item.classList.remove('theme_color_project-default');
+					item.classList.add('theme_color_project-inverse');
+				});
+			} else {
+				themeDefaultBlocks.forEach((item) => {
+					item.classList.remove('theme_color_project-inverse');
+					item.classList.add('theme_color_project-default');
+				});
+			}
+
 			themeSwitcherWrapper.classList.toggle('onoffswitch_checked');
-			pageWrapper.classList.toggle('theme_color_project-default');
-			pageWrapper.classList.toggle('theme_color_project-inverse');
 		}
 
-		if (event.target.closest(selectors.historyItem)) {
-			const currentItem = event.target.closest(selectors.historyItem);
+		if (event.target.closest('.history__transaction')) {
+			const currentItem = event.target.closest('.history__transaction');
 
-			currentItem.querySelector(selectors.accordionItem).classList.toggle('history__hide');
+			currentItem.querySelector('.e-accordion__more').classList.toggle('history__hide');
 		}
 	}, false);
 };

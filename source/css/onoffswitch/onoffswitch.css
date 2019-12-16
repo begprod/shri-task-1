@@ -15,6 +15,5 @@
 .onoffswitch__button {
 	width: 25px;
 	height: 100%;
-	border: 1px solid;
 	background-color: var(--color-text-base);
 }
