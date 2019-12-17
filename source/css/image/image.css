@@ -3,17 +3,14 @@
 	height: 100%;
 	border: 3px solid;
 	border-color: var(--color-base-border);
-	background-image: url("../assets/images/image-placeholder-primary.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .theme_color_project-default > .image {
-	background-image: url("./images/image-placeholder-primary.svg");
 	border: none;
 }
 
 .theme_color_project-inverse > .image {
-	background-image: url("./images/image-placeholder-inverse.svg");
 	border: none;
 }
