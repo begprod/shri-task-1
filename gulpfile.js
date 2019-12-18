@@ -3,7 +3,7 @@ const watch = require('gulp-watch');
 const postcss = require('gulp-postcss');
 const postcssImport = require('postcss-import');
 const autoprefixer = require('autoprefixer');
-const cssnano = require('cssnano');
+const csso = require('postcss-csso');
 const simpleVars = require('postcss-simple-vars');
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
@@ -25,7 +25,7 @@ gulp.task('css', () => {
 		postcssImport,
 		simpleVars,
 		autoprefixer,
-		cssnano
+		csso
 	];
 
 	return gulp.src(path.src.css)
