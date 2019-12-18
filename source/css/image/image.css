@@ -8,6 +8,14 @@
 	background-repeat: no-repeat;
 }
 
+.image::after {
+	content: "Checkout";
+	font-size: 20px;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-weight: bolder;
+}
+
 .theme_color_project-default > .image {
 	background-image: url("./images/image-placeholder-primary.svg");
 	border: none;
