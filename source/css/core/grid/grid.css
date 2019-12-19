@@ -58,6 +58,7 @@
 
 	[class*="fraction_m-col"] {
 		grid-column: 1;
+		margin-bottom: 20px;
 	}
 
 	.theme_gap_small {
