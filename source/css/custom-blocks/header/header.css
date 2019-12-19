@@ -19,3 +19,9 @@
 	height: 34px;
 	background-color: var(--color-text-base);
 }
+
+@media screen and (max-width: $screen-m) {
+	.header__content {
+		padding: 0 14px;
+	}
+}

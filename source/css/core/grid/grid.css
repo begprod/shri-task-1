@@ -61,6 +61,10 @@
 		margin-bottom: var(--gap);
 	}
 
+	[class*="fraction_m-col"]:last-child {
+		margin-bottom: 0;
+	}
+
 	.theme_gap_small {
 		--gap: var(--space-s);
 	}

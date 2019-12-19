@@ -16,3 +16,9 @@
 .warning__button-wrapper {
 	margin-top: 4px;
 }
+
+@media screen and (max-width: $screen-m) {
+	.warning__button-wrapper {
+		margin-top: 19px;
+	}
+}
