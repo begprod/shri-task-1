@@ -19,3 +19,9 @@
 	padding-top: var(--space-xxxxl);
 	padding-bottom: var(--space-xxxxl);
 }
+
+@media screen and (max-width: $screen-m) {
+	.section_indent-b_xxl {
+		margin-bottom: var(--space-xl);
+	}
+}
