@@ -58,7 +58,7 @@
 
 	[class*="fraction_m-col"] {
 		grid-column: 1;
-		margin-bottom: 20px;
+		margin-bottom: var(--gap);
 	}
 
 	.theme_gap_small {
