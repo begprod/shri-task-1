@@ -58,7 +58,26 @@
 
 	[class*="fraction_m-col"] {
 		grid-column: 1;
-		margin-bottom: var(--gap);
+	}
+
+	.grid__fraction_m-col_2 {
+		margin-bottom: var(--gap-half);
+	}
+
+	.grid__fraction_m-col_3 {
+		margin-bottom: var(--gap-half);
+	}
+
+	.grid__fraction_m-col_4 {
+		margin-bottom: var(--space-s);
+	}
+
+	.grid__fraction_m-col_5 {
+		margin-bottom: var(--space-s);
+	}
+
+	.grid__fraction_m-col_8 {
+		margin-bottom: 8px
 	}
 
 	[class*="fraction_m-col"]:last-child {

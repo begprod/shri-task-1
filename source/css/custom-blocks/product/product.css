@@ -18,9 +18,3 @@
 .product__footer {
 	flex-direction: column;
 }
-
-@media screen and (max-width: $screen-m) {
-	.product {
-		margin-bottom: -7px;
-	}
-}
