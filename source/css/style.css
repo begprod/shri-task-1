@@ -3,12 +3,12 @@
 @import "core/theme/theme.css";
 @import "core/grid/grid.css";
 @import "core/layout/layout.css";
-@import "core/section/section.css";
 
 @import "patterns/card/card.css";
 @import "patterns/form/form.css";
 @import "patterns/informer/informer.css";
 @import "patterns/list/list.css";
+@import "patterns/section/section.css";
 @import "patterns/icon-plus/icon-plus.css";
 
 @import "content/text/text.css";
