@@ -11,12 +11,12 @@ const webpackStream = require('webpack-stream');
 const path = {
 	build: './build',
 	src: {
-		css: './source/css/style.css',
-		js: './source/js/script.js'
+		css: './src/css/style.css',
+		js: './src/js/script.js'
 	},
 	watch: {
-		css: './source/css/**/*.css',
-		js: './source/js/*.js'
+		css: './src/css/**/*.css',
+		js: './src/js/*.js'
 	}
 };
 
